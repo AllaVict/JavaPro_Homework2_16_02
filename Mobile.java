@@ -13,17 +13,12 @@ public class Mobile extends Phone {
     @Override
     public void call(String name) {
         System.out.println(name + " call to number " + number+" via Mobile");
-//        super.call(name);
-//        System.out.println(" via Mobile"+"\n");
 
     }
 
     @Override
     public void receiveCall(String name) {
         System.out.println(name + " receive call from number " + number +" via Mobile");
-
-//        super.receiveCall(name);
-//        System.out.println(" via Mobile"+"\n");
 
     }
 
